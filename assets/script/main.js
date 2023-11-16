@@ -11,4 +11,15 @@ const state = {
         result: 0,
         currentTime: 60,
     },
+    actions: {
+        timerId: setInterval(randomSquare, 1000),
+        countDownTimerId: setInterval(countDown, 1000),
+    },
+};
+
+function soundGame(sound){
+    let audio = new Audio(`./assets/audios${sound}.m4a`);
+    audio.volume = 0.3;
+    audio.play();
 }
+
