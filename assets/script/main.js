@@ -32,3 +32,14 @@ function countDown(){
         alert("Game over! Your result is" + state.values.result);
     }
 }
+
+function squareRandom(){
+    state.view.squares.forEach((square) => {
+        square.classList.remove("enemy");
+    });
+
+    let numberRandom = Math.floor(Math.random() * 10);
+    let squareRandom = state.view.squares[numberRandom];
+    squareRandom.classList.add("enemy");
+    state.values.hitPosition = squareRandom.id;
+}
