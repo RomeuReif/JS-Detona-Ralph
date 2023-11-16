@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(/assets/imgs/wall.png);
+    background-position: center;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #2b2929;
+    letter-spacing: 3px;
+    color: #fff1f1;
+    border-bottom: 5px ssolid #ffd700;
+}
+
