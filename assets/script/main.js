@@ -56,3 +56,9 @@ function addListenerHitBox(){
         });
     });
 }
+
+function initialize(){
+    addListenerHitBox();
+}
+
+initialize();
