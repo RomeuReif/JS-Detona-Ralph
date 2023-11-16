@@ -50,6 +50,7 @@
 }
 
 .enemy {
+    cursor: pointer;
     background-image: url(/assets/imgs/ralph.png);
     background-size: cover;
 }
