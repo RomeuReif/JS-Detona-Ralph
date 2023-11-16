@@ -19,3 +19,37 @@
     border-bottom: 5px ssolid #ffd700;
 }
 
+.lives-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-menu h2:nth-child(2),
+.score-menu h2:nth-child(2){
+    margin-top: 1rem;
+}
+
+.time-menu {
+    color: #c00909;
+}
+
+/* Panel */
+.panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #2e2d2d;
+    background-color: #16146d;
+}
+
+.enemy {
+    background-image: url(/assets/imgs/ralph.png);
+    background-size: cover;
+}
